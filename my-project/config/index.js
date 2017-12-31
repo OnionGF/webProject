@@ -11,22 +11,14 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      //代理服务器
-      '/mz/':{
-        target:'https://m.maizuo.com',
-        pathRewrite:{'^/mz' : ''},
-        changeOrigin:true
-      },
-      '/box/':{
-        target:'https://m.maizuo.com',
-        pathRewrite:{'^/box' : ''},
-        changeOrigin:true
-      },
-      '/boxs/':{
-        target:'https://m.maizuo.com',
-        pathRewrite:{'^/boxs' : ''},
-        changeOrigin:true
-      }
+      //代理服务器  
+      '/api':{
+        target:'http://localhost:9000',  //我们请求数据的目标地址
+        changeOrigin:true,
+        pathRewrite:{
+            '^/api' : ''
+        }
+       }
     },
 
     // Various Dev Server settings

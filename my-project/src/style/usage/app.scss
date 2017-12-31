@@ -1,0 +1,15 @@
+
+@import './core/reset.scss';
+@import './modules/footer.scss';
+@import './modules/index.scss';
+@import './modules/common.scss';
+@import './modules/mine.scss';
+@import './modules/collect.scss';
+@import './modules/order.scss';
+.container{
+    overflow:auto;
+    height:100%;
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(space-between);
+}

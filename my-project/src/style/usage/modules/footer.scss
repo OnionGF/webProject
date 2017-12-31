@@ -1,0 +1,24 @@
+
+.foot{
+    height:0.5rem;
+    background:#ccc;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    margin:0 auto;
+    color:green;
+    ul{
+        height:100%;
+        @include flexbox();
+        // @include flex-direction(column);
+        @include justify-content(space-around);
+        @include align-items(center);
+        li{
+            @include flexbox();
+            @include flex-direction(column);
+            @include justify-content(center);
+            @include align-items(center)
+        }
+    }
+}

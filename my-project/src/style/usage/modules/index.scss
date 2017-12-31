@@ -1,0 +1,34 @@
+
+
+.home{
+    @include flex();
+    @include flexbox();
+    @include flex-direction(column);
+    width:100%;
+    height:100%;
+    .banner{
+        height:2.1rem;
+        background:red;
+    }
+    .search-top{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:0.5rem;
+        background:black;
+        display:none;
+    }
+    .con{
+        @include flexbox();
+        @include flex();
+        background:green;
+        div{
+            width:100%;
+            height:4rem;
+            background:yellow;
+            @include border(splid,1px,black);
+        }
+    }
+}
+   

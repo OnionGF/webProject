@@ -1,0 +1,74 @@
+{
+    "errcode": 0,
+    "errmsg": "",
+    "data": {
+      "start": 0,
+      "count": 10,
+      "total": 120,
+      "subjects": [
+        {
+          "postype": "客服5",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服6",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服7",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服1",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服2",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服3",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        },
+        {
+          "postype": "客服4",
+          "posname": "世界500强客服，包吃住~",
+          "city": "北京",
+          "duration": "2017-12-15~2017-12-18",
+          "createtime": "1小时前",
+          "companytype": "知名企业",
+          "salary": "365元/日"
+        }
+      ]
+    }
+}
